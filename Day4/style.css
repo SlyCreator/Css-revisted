@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+html,body {
+    background-color: aliceblue
+}
+.main-form {
+    width: 400px;
+    height: 450px;
+    margin: 50px auto;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+.card-head{
+    height: 50px;
+    border-bottom: 1px solid #1e1e1e
+}
+.head-text {
+    margin: 20px;
+    font-size: 1.13em;   
+      
+}
+.card-body{
+    margin: 20px;
+}
+
+input, button{
+    padding: 10px;
+}
+.card-number{
+    width: 100%;
+    margin: 15px 0;
+}
+.month{
+    float: left;
+    width: 47%;
+    padding: 8px;
+    margin-top: 10px;
+   
+}
+.year{
+    float: right;
+    width: 47%;
+    padding: 8px;
+    margin-top: 10px;
+}
+.cvv-input{
+    float: left;
+    margin:0;
+    width: 47%;
+    padding: 8px;
+    margin-right: 15px;
+}
+.cvv-text{
+    font-size: 12px;
+   margin-top: 70px;
+}
+button{
+    width: 100%;
+    margin: 14px 0;
+    font-size: 17px;
+}
