@@ -14,19 +14,26 @@ html,body {
 }
 .card-head{
     height: 50px;
-    border-bottom: 1px solid #1e1e1e
+    border-bottom:1px solid #e1e8ee;
+    background-color: white;
 }
 .head-text {
     margin: 20px;
-    font-size: 1.13em;   
+    font-size: 1.13em; 
+    color: #d1d7dd;
+    
       
 }
 .card-body{
     margin: 20px;
 }
 
-input, button{
+input{
     padding: 10px;
+    background: #fff;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    
 }
 .card-number{
     width: 100%;
@@ -37,6 +44,11 @@ input, button{
     width: 47%;
     padding: 8px;
     margin-top: 10px;
+    background: #fff;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
    
 }
 .year{
@@ -44,6 +56,11 @@ input, button{
     width: 47%;
     padding: 8px;
     margin-top: 10px;
+    background: #fff;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
 }
 .cvv-input{
     float: left;
@@ -55,9 +72,28 @@ input, button{
 .cvv-text{
     font-size: 12px;
    margin-top: 70px;
+   color: #e1e8ee;
 }
 button{
     width: 100%;
     margin: 14px 0;
-    font-size: 17px;
+    padding: 10px;
+    font-size: 17px;  
+    border-radius: 7px;
+}
+.proceed{
+    background: #7dc855;
+    border: 2px solid #7dc855; 
+}
+.proceed a{
+ text-decoration: none;
+    color: white;
+}
+.paypal{
+    background-color: rgb(13, 133, 231);
+    border: 2px solid rgb(13, 133, 231);
+}
+.paypal a {
+    text-decoration: none;
+    color: white;
 }
